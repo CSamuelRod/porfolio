@@ -2,17 +2,6 @@ import React, { useState, useEffect } from "react";
 
 
 const Navbar: React.FC = () => {
-  const [darkMode, setDarkMode] = useState(() => {
-    return localStorage.getItem("theme") === "dark";
-  });
-
-  useEffect(() => {
-    document.body.classList.toggle("dark-mode", darkMode);
-    localStorage.setItem("theme", darkMode ? "dark" : "light");
-  }, [darkMode]);
-
-  const toggleTheme = () => setDarkMode(prev => !prev);
-
   return (
     <header>
       <nav className="navbar">
