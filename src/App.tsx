@@ -1,6 +1,5 @@
 // Estructura base del portfolio en React + TypeScript
 // src/App.tsx
-import React from "react";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
