@@ -29,7 +29,7 @@ Soy Samuel Rodríguez, desarrollador junior apasionado por la tecnología y el a
 
 Puedes ver el portfolio desplegado en GitHub Pages en la siguiente URL:
 
-[https://csamuelrod.github.io/portfolio](https://csamuelrod.github.io/portfolio)
+[https://csamuelrod.github.io/porfolio/](https://csamuelrod.github.io/porfolio/)
 
 ---
 
@@ -54,10 +54,4 @@ Si quieres contactarme, puedes usar el formulario del portfolio o escribirme a:
 
 ---
 
-## Licencia
 
-Este proyecto está bajo la licencia MIT.  
-
----
-
-¡Gracias por visitar mi portfolio!
