@@ -1,54 +1,63 @@
-# React + TypeScript + Vite
+# Portfolio de Carlos Samuel Rodríguez
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+👋 ¡Hola! Este repositorio contiene el código fuente de mi portfolio personal desarrollado con React. Aquí presento mi perfil profesional, experiencia, estudios, habilidades y proyectos destacados.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Sobre mí
 
-## Expanding the ESLint configuration
+Soy Samuel Rodríguez, desarrollador junior apasionado por la tecnología y el aprendizaje continuo. Graduado en Desarrollo de Aplicaciones Multiplataforma, con ganas de aportar valor real y crecer profesionalmente.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Contenido del portfolio
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **Inicio:** Presentación personal y llamado a contacto.
+- **Experiencia Laboral:** Prácticas en empresas reales, trabajando con tecnologías como Axional, Informix, JavaScript y bases de datos.
+- **Estudios:** Formación técnica en programación orientada a objetos, bases de datos y desarrollo multiplataforma.
+- **Habilidades Técnicas:** Lenguajes y tecnologías como JavaScript, Java, Kotlin, MySQL, PostgreSQL, Firebase, MongoDB, Git y GitHub.
+- **Habilidades Blandas:** Comunicación, trabajo en equipo, adaptabilidad, entre otras.
+- **Proyectos Destacados:** Apps y sistemas desarrollados, entre ellos:
+  - Healthy.bot — app multiplataforma para gestión de hábitos saludables.
+  - CRUD con Thymeleaf — sistema básico de gestión de usuarios.
+  - Portfolio Personal — sitio web responsivo con animaciones y SEO.
+- **Contacto:** Formulario funcional integrado con EmailJS para recibir mensajes directos.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## Demo en vivo
+
+Puedes ver el portfolio desplegado en GitHub Pages en la siguiente URL:
+
+[https://csamuelrod.github.io/portfolio](https://csamuelrod.github.io/portfolio)
+
+---
+
+## Tecnologías usadas
+
+- React (TypeScript)  
+- EmailJS (para el formulario de contacto)  
+- HTML5, CSS3  
+- FontAwesome para iconos  
+- Git y GitHub para control de versiones  
+
+---
+
+## Contacto
+
+Si quieres contactarme, puedes usar el formulario del portfolio o escribirme a:
+
+- 📧 samuel.rodpal@gmail.com  
+- 📞 +34 640 084 196  
+- [GitHub](https://github.com/CSamuelRod)  
+- [LinkedIn](https://www.linkedin.com/in/carlos-samuel-rodriguez-palomino/)  
+
+---
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT.  
+
+---
+
+¡Gracias por visitar mi portfolio!
